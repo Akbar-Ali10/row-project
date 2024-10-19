@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row div{
+    background: #000;
+    min-height: 200px;
+    width: 20%;
+}
+.row{
+    display: flex;
+}
+div:nth-child(even){
+    background-color: white;
+
+}
+.row1 div:nth-child(odd){
+    background-color: white;
+}
+.row1 div{
+    min-height: 200px;
+    width: 20%;
+    background: #000;
+}
+.row1{
+    display: flex;
+}
